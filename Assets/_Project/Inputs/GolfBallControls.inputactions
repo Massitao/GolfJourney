@@ -1,0 +1,71 @@
+{
+    "name": "GolfBallControls",
+    "maps": [
+        {
+            "name": "GameMap",
+            "id": "b8d953c4-2f1b-4794-8e71-9a143e75e0ee",
+            "actions": [
+                {
+                    "name": "BallHold",
+                    "type": "Button",
+                    "id": "e4a17e43-da35-4af1-a0cb-9a058bfd1535",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "BallDrag",
+                    "type": "PassThrough",
+                    "id": "084528d7-3f26-48e8-9144-883a16c4577c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CancelLaunch",
+                    "type": "Button",
+                    "id": "f337705a-6fa7-4e70-8850-0b7b99d7420a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f5f3bbcb-089c-4b18-b357-87045885408c",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BallDrag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "17e438f3-bcec-4d85-8270-a054b7ca829b",
+                    "path": "<Touchscreen>/touch2/tap",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CancelLaunch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91b5b84b-4cef-4dda-af5e-ea7b6e75a996",
+                    "path": "<Touchscreen>/press",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BallHold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

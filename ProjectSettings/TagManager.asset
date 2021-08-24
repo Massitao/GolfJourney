@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Clouds
+    uniqueID: 1553250071
+    locked: 0
+  - name: Mountain
+    uniqueID: 1346708359
+    locked: 0
+  - name: Hills
+    uniqueID: 2472743653
+    locked: 0
+  - name: Background2
+    uniqueID: 2194154907
+    locked: 0
+  - name: Background1
+    uniqueID: 2515026487
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 460703851
+    locked: 0
+  - name: ForeGround2
+    uniqueID: 2808247819
+    locked: 0
+  - name: ForeGround1
+    uniqueID: 204188597
+    locked: 0
+  - name: WarnParticle
+    uniqueID: 438186101
+    locked: 0
+  - name: LineBar
+    uniqueID: 3864325201
+    locked: 0
