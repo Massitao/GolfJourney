@@ -1,4 +1,4 @@
-## GolfJourney
+## GolfJourney - Unity
 Small 2D Physics Platformer game released on Google Play back in 2018. As simple as launching the ball towards the hole.
 
 I had plans to start development again. Redesign and establish a game loop, add new content, improving/refactoring the existing code...
